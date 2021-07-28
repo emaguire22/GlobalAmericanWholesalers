@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+/* --- wall background --- */
+.x-bg *, .page-container *:before, .page-container *:after { box-sizing: border-box;
+	outline: medium none;}
+* { margin: 0;
+	padding: 0;
+
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img{ max-width:100%;}
+.x-bg																	{ background:#000 none; padding:0; }
+.x-bg-02																{ width:90%; max-width:960px; padding:0; overflow:hidden; display:block; } /* content area bg */
+.x-bg, .x-bg-02, .x-content								{ margin:0 auto; text-align:center; vertical-align:top; overflow:hidden; }
+@media screen and (max-width:800px) 			{ .x-bg .x-nota { display:none !important; } } /* general setting to hide items on tablet view */
+@media screen and (max-width:500px) 			{ .x-bg .x-nomo { display:none !important; } } /* general setting to hide items on mobile view */
+*																			{ max-width:100%; }
+.stBadge																{ min-width: 320px; max-width:100%; }
